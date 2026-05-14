@@ -38,7 +38,7 @@ Uses a **Dual-Pivot QuickSort + InsertionSort** algorithm (threshold 47). Built-
 
 ## ⚙️ Public Interface
 
-### `PolymorphicSortAndSearch` module
+### `PolymorphicSort` module
 
 | Member | Description |
 |---|---|
