@@ -4,7 +4,7 @@
 ![Architecture](https://img.shields.io/badge/Architecture-x86%20%7C%20x64-lightgrey)
 ![Rubberduck](https://img.shields.io/badge/Rubberduck-Ready-orange)
 
-VBA Standard Module for polymorphic sorting and searching via `ICompare` interface — sort any array type, including object arrays, through a pluggable compare strategy.
+VBA standard module for polymorphic sorting and searching via `ICompare` interface — sort any array type, including object arrays, through a pluggable compare strategy.
 
 Uses a **Dual-Pivot QuickSort + InsertionSort** algorithm (threshold 47). Built-in implementations handle numbers, strings (binary or text compare), and objects. Custom implementations cover any other type.
 
