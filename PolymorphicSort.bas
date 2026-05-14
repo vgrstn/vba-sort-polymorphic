@@ -1,4 +1,4 @@
-Attribute VB_Name = "PolymorphicSortAndSearch"
+Attribute VB_Name = "PolymorphicSort"
 '@IgnoreModule AssignmentNotUsed, ProcedureNotUsed, UnassignedVariableUsage, UseMeaningfulName, MultipleDeclarations, ParameterCanBeByVal, HungarianNotation, VariableNotAssigned
 '@Folder("Module")
 '@ModuleDescription "Polymorphic sorting and searching."
