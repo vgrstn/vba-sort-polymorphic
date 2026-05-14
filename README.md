@@ -32,7 +32,7 @@ Uses a **Dual-Pivot QuickSort + InsertionSort** algorithm (threshold 47). Built-
 | `CompareText.cls` | Class | Case-insensitive string comparison (`vbTextCompare`) |
 | `CompareBinary.cls` | Class | Case-sensitive string comparison (`vbBinaryCompare`) |
 | `Person.cls` | Class | Example object class implementing `ICompare` |
-| `PolymorphicSortAndSearch.bas` | Module | Sort, search, and IsSorted — the main entry point |
+| `PolymorphicSort.bas` | Module | Sort, search, and IsSorted — the main entry point |
 
 ---
 
