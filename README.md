@@ -31,7 +31,7 @@ Uses a **Dual-Pivot QuickSort + InsertionSort** algorithm (threshold 47). Built-
 | `CompareDefault.cls` | Class | Comparison by VB operators (`<`, `=`) — numbers, strings, dates |
 | `CompareText.cls` | Class | Case-insensitive string comparison (`vbTextCompare`) |
 | `CompareBinary.cls` | Class | Case-sensitive string comparison (`vbBinaryCompare`) |
-| `Person.cls` | Class | Example object class implementing `ICompare` |
+| `Person.cls` | Class | Example object Class implementing `ICompare` |
 | `PolymorphicSort.bas` | Module | Sort, search, and IsSorted — the main entry point |
 
 ---
@@ -99,7 +99,7 @@ Debug.Print IsSorted(a)          ' True or False
 
 ## 🔑 Object arrays with a custom `ICompare`
 
-Implement `ICompare` in your class and set it before sorting:
+Implement `ICompare` in your Class and set it before sorting:
 
 ```vb
 ' Person implements ICompare — sorts by LastName, Prefix, FirstName
