@@ -31,8 +31,10 @@ Uses a **Dual-Pivot QuickSort + InsertionSort** algorithm (threshold 47). Built-
 | `CompareDefault.cls` | Class | Comparison by VB operators (`<`, `=`) — numbers, strings, dates |
 | `CompareText.cls` | Class | Case-insensitive string comparison (`vbTextCompare`) |
 | `CompareBinary.cls` | Class | Case-sensitive string comparison (`vbBinaryCompare`) |
-| `Person.cls` | Class | Example object Class implementing `ICompare` |
+| `Person.cls` | Class | Example object class implementing `ICompare` |
 | `PolymorphicSort.bas` | Module | Sort, search, and IsSorted — the main entry point |
+
+Each file has a corresponding `_WithAttributes` version (e.g. `PolymorphicSort_WithAttributes.bas`) with [Rubberduck](https://rubberduckvba.com/) annotations removed and VB attributes baked in. Import the `_WithAttributes` files if you are not using Rubberduck.
 
 ---
 
